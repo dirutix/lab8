@@ -1,0 +1,1 @@
+/home/dima/Term2/progbase2/labs/lab8/build/CMakeFiles/lab8.dir

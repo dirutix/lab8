@@ -1,0 +1,147 @@
+\hypertarget{parser_8h}{\section{include/parser.h File Reference}
+\label{parser_8h}\index{include/parser.\-h@{include/parser.\-h}}
+}
+
+
+Json parser for responce strings.  
+
+
+{\ttfamily \#include $<$iostream$>$}\\*
+{\ttfamily \#include $<$list$>$}\\*
+{\ttfamily \#include $<$writer.\-h$>$}\\*
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+string \hyperlink{parser_8h_af58659809af4640bdfdbd6730cbb8a5a}{get\-Json\-Server\-Info} ()
+\begin{DoxyCompactList}\small\item\em get server information \end{DoxyCompactList}\item 
+string \hyperlink{parser_8h_afff1186e1fa39ddff041fe4a772a5599}{get\-Json\-Writers} (list$<$ \hyperlink{classWriter}{Writer} $\ast$ $>$ writers)
+\begin{DoxyCompactList}\small\item\em get Writers converted to J\-Son string \end{DoxyCompactList}\item 
+string \hyperlink{parser_8h_a531b25a53e45631f8d0cffef6db655fa}{get\-Json\-Writers\-By\-Key\-\_\-\-Val} (list$<$ \hyperlink{classWriter}{Writer} $\ast$ $>$ writers, string key, string value)
+\begin{DoxyCompactList}\small\item\em get all Writers with values that match chosen key \end{DoxyCompactList}\item 
+string \hyperlink{parser_8h_a626c45e0baa8df866509d364083e2b72}{get\-Json\-File\-Info} (string file\-Path)
+\begin{DoxyCompactList}\small\item\em get information about file \end{DoxyCompactList}\item 
+string \hyperlink{parser_8h_a7abbbf4353960052279d07991151232b}{get\-Json\-File\-Extreme} (string file\-Path)
+\begin{DoxyCompactList}\small\item\em get extremums of words in file \end{DoxyCompactList}\item 
+string \hyperlink{parser_8h_a9cfa5e00b2906e2f375a865f6f81a594}{read\-File} (string file\-Path)
+\begin{DoxyCompactList}\small\item\em help function to read file \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Json parser for responce strings. 
+
+\subsection{Function Documentation}
+\hypertarget{parser_8h_a7abbbf4353960052279d07991151232b}{\index{parser.\-h@{parser.\-h}!get\-Json\-File\-Extreme@{get\-Json\-File\-Extreme}}
+\index{get\-Json\-File\-Extreme@{get\-Json\-File\-Extreme}!parser.h@{parser.\-h}}
+\subsubsection[{get\-Json\-File\-Extreme}]{\setlength{\rightskip}{0pt plus 5cm}string get\-Json\-File\-Extreme (
+\begin{DoxyParamCaption}
+\item[{string}]{file\-Path}
+\end{DoxyParamCaption}
+)}}\label{parser_8h_a7abbbf4353960052279d07991151232b}
+
+
+get extremums of words in file 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\-Path} & -\/ path to file \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Json string that contain extremums 
+\end{DoxyReturn}
+\hypertarget{parser_8h_a626c45e0baa8df866509d364083e2b72}{\index{parser.\-h@{parser.\-h}!get\-Json\-File\-Info@{get\-Json\-File\-Info}}
+\index{get\-Json\-File\-Info@{get\-Json\-File\-Info}!parser.h@{parser.\-h}}
+\subsubsection[{get\-Json\-File\-Info}]{\setlength{\rightskip}{0pt plus 5cm}string get\-Json\-File\-Info (
+\begin{DoxyParamCaption}
+\item[{string}]{file\-Path}
+\end{DoxyParamCaption}
+)}}\label{parser_8h_a626c45e0baa8df866509d364083e2b72}
+
+
+get information about file 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\-Path} & -\/ path to file \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Json string that contain information about file 
+\end{DoxyReturn}
+\hypertarget{parser_8h_af58659809af4640bdfdbd6730cbb8a5a}{\index{parser.\-h@{parser.\-h}!get\-Json\-Server\-Info@{get\-Json\-Server\-Info}}
+\index{get\-Json\-Server\-Info@{get\-Json\-Server\-Info}!parser.h@{parser.\-h}}
+\subsubsection[{get\-Json\-Server\-Info}]{\setlength{\rightskip}{0pt plus 5cm}string get\-Json\-Server\-Info (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{parser_8h_af58659809af4640bdfdbd6730cbb8a5a}
+
+
+get server information 
+
+\begin{DoxyReturn}{Returns}
+return Json string of server information 
+\end{DoxyReturn}
+\hypertarget{parser_8h_afff1186e1fa39ddff041fe4a772a5599}{\index{parser.\-h@{parser.\-h}!get\-Json\-Writers@{get\-Json\-Writers}}
+\index{get\-Json\-Writers@{get\-Json\-Writers}!parser.h@{parser.\-h}}
+\subsubsection[{get\-Json\-Writers}]{\setlength{\rightskip}{0pt plus 5cm}string get\-Json\-Writers (
+\begin{DoxyParamCaption}
+\item[{list$<$ {\bf Writer} $\ast$ $>$}]{writers}
+\end{DoxyParamCaption}
+)}}\label{parser_8h_afff1186e1fa39ddff041fe4a772a5599}
+
+
+get Writers converted to J\-Son string 
+
+
+\begin{DoxyParams}{Parameters}
+{\em writers} & -\/ list of all Writers \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Json string of Writers 
+\end{DoxyReturn}
+\hypertarget{parser_8h_a531b25a53e45631f8d0cffef6db655fa}{\index{parser.\-h@{parser.\-h}!get\-Json\-Writers\-By\-Key\-\_\-\-Val@{get\-Json\-Writers\-By\-Key\-\_\-\-Val}}
+\index{get\-Json\-Writers\-By\-Key\-\_\-\-Val@{get\-Json\-Writers\-By\-Key\-\_\-\-Val}!parser.h@{parser.\-h}}
+\subsubsection[{get\-Json\-Writers\-By\-Key\-\_\-\-Val}]{\setlength{\rightskip}{0pt plus 5cm}string get\-Json\-Writers\-By\-Key\-\_\-\-Val (
+\begin{DoxyParamCaption}
+\item[{list$<$ {\bf Writer} $\ast$ $>$}]{writers, }
+\item[{string}]{key, }
+\item[{string}]{value}
+\end{DoxyParamCaption}
+)}}\label{parser_8h_a531b25a53e45631f8d0cffef6db655fa}
+
+
+get all Writers with values that match chosen key 
+
+
+\begin{DoxyParams}{Parameters}
+{\em writers} & -\/ list of writers \\
+\hline
+{\em key} & -\/ field of struct \hyperlink{classWriter}{Writer} \\
+\hline
+{\em value} & -\/ content of the field to search \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{parser_8h_a9cfa5e00b2906e2f375a865f6f81a594}{\index{parser.\-h@{parser.\-h}!read\-File@{read\-File}}
+\index{read\-File@{read\-File}!parser.h@{parser.\-h}}
+\subsubsection[{read\-File}]{\setlength{\rightskip}{0pt plus 5cm}string read\-File (
+\begin{DoxyParamCaption}
+\item[{string}]{file\-Path}
+\end{DoxyParamCaption}
+)}}\label{parser_8h_a9cfa5e00b2906e2f375a865f6f81a594}
+
+
+help function to read file 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\-Path} & -\/ path to file \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string content of file 
+\end{DoxyReturn}

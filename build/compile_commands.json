@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/dima/Term2/progbase2/labs/lab8/build",
+  "command": "/usr/bin/c++    -std=c++11 -Werror -Wall -O3 -DNDEBUG -I/home/dima/Term2/progbase2/labs/lab8/include    -o CMakeFiles/lab8.dir/main.cpp.o -c /home/dima/Term2/progbase2/labs/lab8/main.cpp",
+  "file": "/home/dima/Term2/progbase2/labs/lab8/main.cpp"
+},
+{
+  "directory": "/home/dima/Term2/progbase2/labs/lab8/build",
+  "command": "/usr/bin/c++    -std=c++11 -Werror -Wall -O3 -DNDEBUG -I/home/dima/Term2/progbase2/labs/lab8/include    -o CMakeFiles/lab8.dir/src/parser.cpp.o -c /home/dima/Term2/progbase2/labs/lab8/src/parser.cpp",
+  "file": "/home/dima/Term2/progbase2/labs/lab8/src/parser.cpp"
+},
+{
+  "directory": "/home/dima/Term2/progbase2/labs/lab8/build",
+  "command": "/usr/bin/c++    -std=c++11 -Werror -Wall -O3 -DNDEBUG -I/home/dima/Term2/progbase2/labs/lab8/include    -o CMakeFiles/lab8.dir/src/request.cpp.o -c /home/dima/Term2/progbase2/labs/lab8/src/request.cpp",
+  "file": "/home/dima/Term2/progbase2/labs/lab8/src/request.cpp"
+},
+{
+  "directory": "/home/dima/Term2/progbase2/labs/lab8/build",
+  "command": "/usr/bin/c++    -std=c++11 -Werror -Wall -O3 -DNDEBUG -I/home/dima/Term2/progbase2/labs/lab8/include    -o CMakeFiles/lab8.dir/src/response.cpp.o -c /home/dima/Term2/progbase2/labs/lab8/src/response.cpp",
+  "file": "/home/dima/Term2/progbase2/labs/lab8/src/response.cpp"
+},
+{
+  "directory": "/home/dima/Term2/progbase2/labs/lab8/build",
+  "command": "/usr/bin/c++    -std=c++11 -Werror -Wall -O3 -DNDEBUG -I/home/dima/Term2/progbase2/labs/lab8/include    -o CMakeFiles/lab8.dir/src/writer.cpp.o -c /home/dima/Term2/progbase2/labs/lab8/src/writer.cpp",
+  "file": "/home/dima/Term2/progbase2/labs/lab8/src/writer.cpp"
+}
+]
