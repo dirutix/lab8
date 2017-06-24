@@ -1,3 +1,10 @@
+<div class="col-md-8 wrap">
+
+[![Travis-CI][travis-badge]][travis-builds]
+
+[travis-badge]: https://travis-ci.org/dirutix/lab8.svg?branch=master
+[travis-builds]: https://travis-ci.org/dirutix/lab8/builds
+
 ## HTTP сервер
 
 #### Мета:
@@ -128,3 +135,5 @@ Doxygen створить директорію `docs/` із піддиректо�
 
 1.  [Лекція. Клієнт-серверна архітектура програм. Сокети, протоколи IP, TCP i UDP.](https://docs.google.com/document/d/1Lm-2s3EyzOd7ynPMKzi53y3kbZ_UwagXfhWCp6dv4sw/edit?usp=sharing)
 2.  [Лекція. World Wide Web (WWW). URL. Протокол HTTP](https://docs.google.com/document/d/1aUdlTlbHDYhhdf2gVs1j94FmBrLviKb8QLfFVxqi-0A/edit#heading=h.1ii1x15xikxx)# lab8
+
+</div>
